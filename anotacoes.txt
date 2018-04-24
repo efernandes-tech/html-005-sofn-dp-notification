@@ -1,0 +1,7 @@
+# html-005-sofn-dp-notification
+
+# Anotações:
+- Base:
+    https://www.schoolofnet.com/canal-direto-ao-ponto/browser-notification/
+- Rodar:
+    php -S localhost:1337 -t . index.html
