@@ -10,6 +10,14 @@
         (function() {
             if (Notification.permission !== 'granted') {
                 Notification.requestPermission()
+            } else {
+                new Notification('School of Net', {
+                    body: 'Hello World!',
+                    icon: '',
+                    tag: '',
+                    lang: '',
+                    silent: ''
+                });
             }
         })();
     </script>
